@@ -1,4 +1,6 @@
 ::A simple batch program for cleaning up NRAAS ErrorTrap error logs
+::dev0.01
+
 
 @echo off
 chdir /D "C:\%USERPROFILE%\Documents"
