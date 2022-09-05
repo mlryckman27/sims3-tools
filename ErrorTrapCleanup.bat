@@ -3,7 +3,8 @@
 
 
 @echo off
-chdir /D "C:\%USERPROFILE%\Documents"
+C:
+cd "%USERPROFILE%/Documents"
 
 set targetDir="%USERPROFILE%\Documents\Electronic Arts\The Sims 3"
 IF EXIST %targetDir% (
